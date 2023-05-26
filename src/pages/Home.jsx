@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <div className='px-[10%] min-h-[90vh] py-5 flex flex-col items-center'>
             <Nav />
-            <div className='grid grid-cols-1 min-h-[50vh] sm:grid-cols-2 md:mt-[150px] capitalize'>
+            <div className='grid grid-cols-1 min-h-[50vh] md:grid-cols-2 md:mt-[150px] capitalize'>
                 <div className='md:pe-5'>
                     <svg
                         viewBox='0 0 1000 1000'

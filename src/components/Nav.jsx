@@ -7,7 +7,7 @@ const Nav = () => {
                 className='flex gap-1 items-center text-xl '
             >
                 <HiOutlineMail className='text-2xl' />
-                <span className='hidden sm:block'>
+                <span className='hidden md:block'>
                     scorpiondota22@gmail.com
                 </span>
             </a>
