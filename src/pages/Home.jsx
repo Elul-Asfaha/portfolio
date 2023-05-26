@@ -3,14 +3,14 @@ import { BsInstagram, BsGithub } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
 const Home = () => {
     return (
-        <div className='min-h-[100vh] py-5 flex flex-col items-center'>
+        <div className='px-[10%] min-h-[90vh] py-5 flex flex-col items-center'>
             <Nav />
-            <div className='grid grid-cols-1 min-h-[50vh] sm:grid-cols-2 md:mt-[200px] capitalize'>
+            <div className='grid grid-cols-1 min-h-[50vh] sm:grid-cols-2 md:mt-[150px] capitalize'>
                 <div className='md:pe-5'>
                     <svg
                         viewBox='0 0 1000 1000'
                         xmlns='http://www.w3.org/2000/svg'
-                        className='hover:rotate-180 hover:ease-in-out md:hover:animate-bounce'
+                        className='hover:rotate-180 hover:ease-in-out duration-100'
                     >
                         <defs>
                             <clipPath id='a'>
@@ -33,7 +33,7 @@ const Home = () => {
                         an interactive <br />
                         designer
                     </p>
-                    <p className='leading-relaxed text-justify max-w-[400px]'>
+                    <p className='leading-relaxed text-justify max-w-sm'>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Et deleniti porro tempora numquam ea nam qui
                         dolorum adipisci, earum recusandae!
