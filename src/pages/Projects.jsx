@@ -1,6 +1,9 @@
 const Projects = () => {
     return (
-        <div className='px-[10%] py-[5%] min-h-[80vh] bg-blue-700'>
+        <div
+            className='px-[10%] py-[5%] min-h-[80vh] bg-blue-700'
+            id='Projects'
+        >
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5 w-full pb-5'>
                 <p className='text-white text-5xl md:text-7xl capitalize'>
                     take a look at my projects

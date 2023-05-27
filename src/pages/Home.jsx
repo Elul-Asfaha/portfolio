@@ -1,16 +1,28 @@
 import Nav from "../components/Nav";
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
-const Home = () => {
+import { BsToggleOff, BsToggleOn } from "react-icons/bs";
+
+const Home = ({ menuToggler, nightModeToggler, nightmode }) => {
     return (
-        <div className='px-[10%] min-h-[90vh] py-5 flex flex-col items-center'>
-            <Nav />
+        <div
+            className='px-[10%] min-h-[90vh] py-5 flex flex-col items-center'
+            id='Home'
+        >
+            <Nav menuToggler={menuToggler} />
+            <div onClick={nightModeToggler} className='text-3xl delay-1000'>
+                {nightmode ? (
+                    <BsToggleOff className='text-black' />
+                ) : (
+                    <BsToggleOn className='text-white' />
+                )}
+            </div>
             <div className='grid grid-cols-1 min-h-[50vh] md:grid-cols-2 md:mt-[150px] capitalize'>
                 <div className='md:pe-5'>
                     <svg
                         viewBox='0 0 1000 1000'
                         xmlns='http://www.w3.org/2000/svg'
-                        className='hover:rotate-180 hover:ease-in-out duration-100'
+                        className='hover:rotate-180 hover:ease-in-out duration-100 md:hover:scale-125 duration-1000'
                     >
                         <defs>
                             <clipPath id='a'>
