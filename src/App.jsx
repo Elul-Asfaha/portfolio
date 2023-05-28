@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import Specialities from "./pages/Specialities";
 import MobileMenu from "./components/MobileMenu";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import Nav from "./components/Nav";
 
 function App() {
@@ -41,7 +41,7 @@ function App() {
                     />
                 )}
                 <div className='px-[10%] py-5'>
-                    <Nav />
+                    <Nav menuToggler={handleMenuToggle} />
                 </div>
             </div>
         </BrowserRouter>

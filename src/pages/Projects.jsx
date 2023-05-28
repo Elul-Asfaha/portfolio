@@ -38,18 +38,18 @@ const Projects = () => {
                         <img src='' className='cover' />
                     </div>
                 </a>
-                <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
+                <a
+                    href='https://dainty-centaur-3e3ef7.netlify.app/'
+                    className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
+                >
                     <div className='p-5'>
-                        <p className='text-2xl font-bold '>Title title</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                        </p>
+                        <p className='text-2xl font-bold '>Landing page</p>
+                        <p>a landing page for a buisness</p>
                     </div>
                     <div className='flex'>
                         <img src='' className='cover' />
                     </div>
-                </div>
+                </a>
                 <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
                     <div className='p-5'>
                         <p className='text-2xl font-bold '>Title title</p>
