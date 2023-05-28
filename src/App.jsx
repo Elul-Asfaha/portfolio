@@ -4,6 +4,7 @@ import Projects from "./pages/Projects";
 import Specialities from "./pages/Specialities";
 import MobileMenu from "./components/MobileMenu";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Nav from "./components/Nav";
 
 function App() {
     const [nightmode, setNightMode] = useState(false);
@@ -39,6 +40,9 @@ function App() {
                         menuToggler={handleMenuToggle}
                     />
                 )}
+                <div className='px-[10%] py-5'>
+                    <Nav />
+                </div>
             </div>
         </BrowserRouter>
     );

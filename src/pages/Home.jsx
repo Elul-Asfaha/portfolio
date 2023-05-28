@@ -2,6 +2,7 @@ import Nav from "../components/Nav";
 import { BsInstagram, BsGithub } from "react-icons/bs";
 import { AiOutlineLinkedin } from "react-icons/ai";
 import { BsToggleOff, BsToggleOn } from "react-icons/bs";
+import { HashLink as Link } from "react-router-hash-link";
 
 const Home = ({ menuToggler, nightModeToggler, nightmode }) => {
     return (
@@ -22,7 +23,7 @@ const Home = ({ menuToggler, nightModeToggler, nightmode }) => {
                     <svg
                         viewBox='0 0 1000 1000'
                         xmlns='http://www.w3.org/2000/svg'
-                        className='hover:rotate-180 hover:ease-in-out duration-100 md:hover:scale-125 duration-1000'
+                        className='hover:rotate-180 hover:ease-in-out md:hover:scale-125 duration-1000'
                     >
                         <defs>
                             <clipPath id='a'>
@@ -54,9 +55,12 @@ const Home = ({ menuToggler, nightModeToggler, nightmode }) => {
                         <button className='bg-purple-700 text-white rounded-sm py-2 px-4'>
                             book a call
                         </button>
-                        <p className='underline font-bold py-2 px-4 hover:ring-2 hover:ring-purple-700'>
+                        <Link
+                            to='#Projects'
+                            className='underline font-bold py-2 px-4 hover:ring-2 hover:ring-purple-700'
+                        >
                             my works
-                        </p>
+                        </Link>
                     </div>
                     <div className='flex gap-5 items-center normal-case font-bold'>
                         <span className='text-gray-500'>Follow me on:</span>

@@ -22,7 +22,7 @@ const Specialities = () => {
                         <p className='font-bold mb-2 text-3xl'>
                             product design
                         </p>
-                        <p className='text-gray-700 text-base'>
+                        <p className='text-gray-500 text-base'>
                             is the foundation of any successful product. From
                             conceptualization to prototyping and final
                             production, I approach product design with a focus
@@ -36,7 +36,7 @@ const Specialities = () => {
                             <MdDesignServices className='text-4xl text-purple-700 hover:animate-bounce' />
                         </div>
                         <p className='font-bold mb-2 text-3xl'>ui/ux design</p>
-                        <p className='text-gray-700 text-base'>
+                        <p className='text-gray-500 text-base'>
                             npm rwith a strong focus on UI/UX design to provide
                             visitors with an engaging and user-friendly
                             experience. With an intuitive interface and easy
@@ -52,7 +52,7 @@ const Specialities = () => {
                         <p className='font-bold mb-2 text-3xl'>
                             interactive design
                         </p>
-                        <p className='text-gray-700 text-base'>
+                        <p className='text-gray-500 text-base'>
                             interactive design plays a crucial role in engaging
                             visitors and creating a memorable user experience.
                         </p>

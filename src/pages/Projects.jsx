@@ -1,7 +1,7 @@
 const Projects = () => {
     return (
         <div
-            className='px-[10%] py-[5%] min-h-[80vh] bg-blue-700'
+            className='px-[10%] py-[5%] min-h-[80vh] bg-blue-900 text-black'
             id='Projects'
         >
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5 w-full pb-5'>
@@ -14,6 +14,30 @@ const Projects = () => {
                 </p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
+                <a
+                    href='https://startling-druid-b14713.netlify.app/'
+                    className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
+                >
+                    <div className='p-5'>
+                        <p className='text-2xl font-bold '>Airbnb clone</p>
+                        <p>a replica of the air bnb website</p>
+                    </div>
+                    <div className='flex'>
+                        <img src='' className='cover' />
+                    </div>
+                </a>
+                <a
+                    href='https://amazing-pithivier-487a83.netlify.app/'
+                    className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
+                >
+                    <div className='p-5'>
+                        <p className='text-2xl font-bold '>Ecommerce</p>
+                        <p>an ecommerce website for headphones</p>
+                    </div>
+                    <div className='flex'>
+                        <img src='' className='cover' />
+                    </div>
+                </a>
                 <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
                     <div className='p-5'>
                         <p className='text-2xl font-bold '>Title title</p>
@@ -21,11 +45,10 @@ const Projects = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit.
                         </p>
-                        <a className='font-bold text-xl underline underline-offset-4'>
-                            Case study
-                        </a>
                     </div>
-                    <div></div>
+                    <div className='flex'>
+                        <img src='' className='cover' />
+                    </div>
                 </div>
                 <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
                     <div className='p-5'>
@@ -34,37 +57,10 @@ const Projects = () => {
                             Lorem ipsum dolor sit amet consectetur adipisicing
                             elit.
                         </p>
-                        <a className='font-bold text-xl underline underline-offset-4'>
-                            Case study
-                        </a>
                     </div>
-                    <div></div>
-                </div>
-                <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
-                    <div className='p-5'>
-                        <p className='text-2xl font-bold '>Title title</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                        </p>
-                        <a className='font-bold text-xl underline underline-offset-4'>
-                            Case study
-                        </a>
+                    <div className='flex'>
+                        <img src='' className='cover' />
                     </div>
-                    <div></div>
-                </div>
-                <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
-                    <div className='p-5'>
-                        <p className='text-2xl font-bold '>Title title</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                        </p>
-                        <a className='font-bold text-xl underline underline-offset-4'>
-                            Case study
-                        </a>
-                    </div>
-                    <div></div>
                 </div>
             </div>
         </div>
