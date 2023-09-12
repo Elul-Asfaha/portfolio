@@ -15,7 +15,7 @@ const Specialities = () => {
             <div className='grid grid-cols-1 md:grid-cols-3 gap-5'>
                 <div className='max-w-sm rounded overflow-hidden shadow-lg'>
                     <div className='px-6 py-4'>
-                        <div className='mx-auto p-3 rounded-full border w-fit'>
+                        <div className='mx-auto p-3 mb-5 rounded-full border w-fit'>
                             <FcIdea className='text-4xl hover:animate-pulse' />
                         </div>
                         <p className='font-bold mb-2 text-3xl'>
@@ -31,7 +31,7 @@ const Specialities = () => {
                 </div>
                 <div className='max-w-sm rounded overflow-hidden shadow-lg'>
                     <div className='px-6 py-4'>
-                        <div className='mx-auto p-3 rounded-full border w-fit'>
+                        <div className='mx-auto p-3 mb-5 rounded-full border w-fit'>
                             <MdDesignServices className='text-4xl text-purple-700 hover:animate-bounce' />
                         </div>
                         <p className='font-bold mb-2 text-3xl'>ui/ux design</p>
@@ -45,7 +45,7 @@ const Specialities = () => {
                 </div>
                 <div className='max-w-sm rounded overflow-hidden shadow-lg'>
                     <div className='px-6 py-4'>
-                        <div className='mx-auto p-3 rounded-full border w-fit'>
+                        <div className='mx-auto p-3 mb-5 rounded-full border w-fit'>
                             <RxMobile className='text-4xl hover:animate-ping' />
                         </div>
                         <p className='font-bold mb-2 text-3xl'>
