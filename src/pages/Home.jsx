@@ -47,9 +47,11 @@ const Home = ({ menuToggler, nightModeToggler, nightmode }) => {
                         designer
                     </p>
                     <p className='leading-relaxed text-justify max-w-sm'>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing
-                        elit. Et deleniti porro tempora numquam ea nam qui
-                        dolorum adipisci, earum recusandae!
+                        I'm an interactive programmer passionate about creating
+                        engaging and immersive experiences for users. With a
+                        blend of technical skills and a creative mindset, I
+                        specialize in building interactive applications that
+                        captivate and delight.
                     </p>
                     <div className='flex gap-5 items-center'>
                         <button className='bg-purple-700 text-white rounded-sm py-2 px-4'>

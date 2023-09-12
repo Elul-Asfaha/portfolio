@@ -9,11 +9,27 @@ const Projects = () => {
                     take a look at my projects
                 </p>
                 <p className='text-gray-200 p-5 max-w-md'>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
-                    officiis veritatis iure dolore voluptates commodi!
+                    I invite you to take a closer look at my projects and dive
+                    into the live demos below and code repositories by going to
+                    my github profile
                 </p>
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
+                <a
+                    href='https://rad-mermaid-2c5b01.netlify.app/'
+                    className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
+                >
+                    <div className='p-5'>
+                        <p className='text-2xl font-bold '>Youtube Clone</p>
+                        <p>
+                            A Youtube clone with a search functionality and
+                            videoplay back
+                        </p>
+                    </div>
+                    <div className='flex'>
+                        <img src='' className='cover' />
+                    </div>
+                </a>
                 <a
                     href='https://startling-druid-b14713.netlify.app/'
                     className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
@@ -50,18 +66,6 @@ const Projects = () => {
                         <img src='' className='cover' />
                     </div>
                 </a>
-                <div className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'>
-                    <div className='p-5'>
-                        <p className='text-2xl font-bold '>Title title</p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing
-                            elit.
-                        </p>
-                    </div>
-                    <div className='flex'>
-                        <img src='' className='cover' />
-                    </div>
-                </div>
             </div>
         </div>
     );
