@@ -16,6 +16,18 @@ const Projects = () => {
             </div>
             <div className='flex flex-col md:grid md:grid-cols-2 gap-5'>
                 <a
+                    href='https://main--euphonious-lokum-2f2c9a.netlify.app/'
+                    className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
+                >
+                    <div className='p-5'>
+                        <p className='text-2xl font-bold '>Dashboard</p>
+                        <p>a dashboard where admins can check stats</p>
+                    </div>
+                    <div className='flex'>
+                        <img src='' className='cover' />
+                    </div>
+                </a>
+                <a
                     href='https://rad-mermaid-2c5b01.netlify.app/'
                     className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
                 >
