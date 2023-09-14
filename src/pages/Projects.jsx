@@ -55,12 +55,12 @@ const Projects = () => {
                     </div>
                 </a>
                 <a
-                    href='https://dainty-centaur-3e3ef7.netlify.app/'
+                    href='https://nimble-cactus-2afed8.netlify.app/'
                     className='min-h-[170px] border border-white grid grid-cols-2 bg-gray-100'
                 >
                     <div className='p-5'>
-                        <p className='text-2xl font-bold '>Landing page</p>
-                        <p>a landing page for a buisness</p>
+                        <p className='text-2xl font-bold '>Delivery</p>
+                        <p>a delivery buissness site</p>
                     </div>
                     <div className='flex'>
                         <img src='' className='cover' />
